@@ -5,14 +5,83 @@
 	<meta charset="utf-8">
 	<title>nike_product_card</title>
 	<link rel="shortcut icon" href="favicon_.png">
-	<link rel="stylesheet" href="css/normalize.css">	
-	<link rel="stylesheet" href="css/main.css">	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>	
-	<main>
-		
-	</main>	
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#" class="logo_link"> <img src="images/logo.png" alt="logo"></a>
+			<nav>
+				<ul class="menu">
+					<li class="menu-li"><a href="#" class="menu_link">LIFESTYLE</a></li>
+					<li class="menu-li"><a href="#" class="menu_link">RUNNING</a></li>
+					<li class="menu-li"><a href="#" class="menu_link">FOOTBALL</a></li>
+					<li class="menu-li"><a href="#" class="menu_link">SKATEBOARDING</a></li>
+				</ul>
+			</nav>
+			<button class="burger">
+				<span class="burger_item"></span>
+				<span class="burger_item"></span>
+				<span class="burger_item"></span>
+			</button>
+		</header>
+		<main class="main">
+			<div class="main_card shadow">
+				<div class="item_card">
+					<div class="item-photo">
+						<img src="../les_13/images/img_h2.png" alt="photo">
+					</div>
+					<div class="btn_add">
+						<img class="btn_add_img" src="../les_13/images/btn_add.png" alt="add">
+					</div>
+					<div class="other_photo">
+						<button class="small_photo"><img src="../les_13/images/img1.png" alt="photo"></button>
+						<button class="small_photo"><img src="../les_13/images/img2.png" alt="photo"></button>
+						<button class="small_photo"><img src="../les_13/images/img3.png" alt="photo"></button>
+					</div>
+				</div>
+				<aside class="aside">
+					<div class="close">
+						<button class="btn_close">
+							<img src="../les_13/images/btn_close.png" alt="close">
+						</button>
+					</div>
+					<span class="new">new</span>
+					<p class="item_title">THE <span class="blue">RUNNING</span> HAS JUST BEGUN</p>
+					<div class="rate_item">
+						<p class="rate">Huarache</p>
+						<div class="stars">
+							<img class="star" src="../les_13/images/star.png" alt="star-rate">
+							<img class="star"src="../les_13/images/star.png" alt="star-rate">
+							<img class="star"src="../les_13/images/star.png" alt="star-rate">
+							<img class="star"src="../les_13/images/star.png" alt="star-rate">
+							<img class="star last-star"src="../les_13/images/star.png" alt="star-rate">
+						</div>
+					</div>					
+					<p class="price">$ 200</p>
+					<div class="select_size">
+						<p class="size">Size</p>
+						<div class="size_btn">
+							<button class="select_size_button">7</button>
+							<button class="select_size_button">8</button>
+							<button class="select_size_button">9</button>
+							<button class="select_size_button">10</button>
+							<button class="select_size_button">11</button>
+						</div>				
+					</div>
+					<div class="buttons_aside">
+						<button class="add">ADD TO CART</button>
+						<button class="wish">WISHLIST</button>
+					</div>
+				</aside>
+			</div>
+
+		</main>
+		<footer class="footer"></footer>
+	</div>
 </body>
 
 </html>

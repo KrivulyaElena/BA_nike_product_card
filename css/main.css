@@ -1,3 +1,242 @@
 *{
 	box-sizing: border-box;	
 }
+
+body{
+	background-image: url(../images/bg_t.png), url(../images/bg-main.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;	
+}
+
+.wrapper{
+	width:80%;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*---------------------------------------------------------------------HEADER---------------------------*/
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 25px;
+}
+
+nav{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 13px;
+}
+
+.menu{
+	display: flex;
+	list-style: none;	
+}
+
+.menu_link{
+	text-decoration: none;
+	color: white;
+	margin: 0 25px;
+}
+
+.menu_link:hover{
+	text-decoration: underline;
+}
+
+.burger{
+	background-color: transparent;
+	border: none;
+	display: inline-block;	
+}
+
+.burger_item{
+	width: 25px;
+	display: block;
+	content: '';
+	height: 2px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+/*------------------------------------------------------------MAIN CARD--------------------------*/
+.main_card{
+	display: flex;
+	margin-top: 50px;
+}
+
+.item_card{
+	background-image: url(../images/bg-card-3.png),url(../images/bg-card-1.png);
+	background-color: #f4f4f4;
+	background-repeat: no-repeat;
+	background-size:contain;
+	width: 70%;
+	padding-top: 90px;
+}
+
+.item-photo{
+	display: flex;
+	justify-content: center;
+}
+
+.btn_add{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.other_photo{
+	display: flex;
+	justify-content: center;
+	padding: 25px 0;
+}
+
+.small_photo{
+	margin-left: 20px;
+	border:none;
+	background-color: #f4f4f4;
+}
+
+.btn_add_img:hover,
+.small_photo:hover,
+.logo_link:hover{
+	transform: scale(1.3);
+}
+
+/*------------------------------------------------ASIDE--------------------*/
+.aside {
+	width: 30%;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 30px;
+	padding-top: 5px;	
+}
+
+.aside p{
+	margin: 0;
+}
+
+.close{
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 20px;
+}
+
+.btn_close{
+	background: transparent;
+	border: none;	
+}
+
+.btn_close:hover{
+	transform: scale(1.5);
+}
+
+.new{
+	font-size: 14px;
+	color:white;
+	text-transform: uppercase;
+	background-color: #ffa60d;
+	padding: 5px;	
+}
+
+.item_title{
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-right: 50px;
+}
+
+.blue{
+	color: #5e4fff;
+}
+
+.rate_item{
+	font-size: 12px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+	display: flex;	
+}
+
+.stars{
+	padding-left: 15px;
+}
+
+.last-star{
+	opacity: 0.5;
+}
+
+.last-star:hover{
+	opacity: 1;
+}
+
+.price{
+	font-size: 22px;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+.select_size{
+	padding-bottom: 20px;
+}
+
+.size{
+	font-size: 12px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+
+.size_btn{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+}
+
+.select_size_button{
+	font-size: 14.5px;
+	font-weight: bolder;
+	border: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+
+.select_size_button:hover{
+	border-color: #000;
+}
+
+.add,
+.wish{
+	background-color: #a200b8;
+	border: 1px solid transparent;
+	text-transform: uppercase;
+	color: white;
+	font-size: 12px;
+	display: block;
+	width: 50%;
+	padding: 5px;
+	margin: 5px;
+}
+
+.add:hover,
+.wish:hover{
+	background-color: white;
+	border-color: #000;
+	color:black;
+}
+
+/*-------------------------------------ANIMATIONS--------------------------*/
+a,
+input[type=“submit”],
+input[type=“button”],
+button,
+input[type=“text”],
+input[type=“email”],
+input[type=“password”],
+input[type=“number”],
+input[type=“tel”],
+textarea,
+select {
+    -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
