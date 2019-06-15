@@ -68,12 +68,17 @@ nav{
 }
 
 .item_card{
-	background-image: url(../images/bg-card-3.png),url(../images/bg-card-1.png);
+	background-image: url(../images/bg-card-3.png),url(../images/bg-card-1.png),url(../images/bg_title.png);
+    background-position: 100% 25%, 50% 0%, 100% 23%, 50% 50%;
 	background-color: #f4f4f4;
 	background-repeat: no-repeat;
 	background-size:contain;
-	width: 55%;
+	width: 45%;
+	min-width: 500px;
 	padding-top: 90px;
+	box-shadow: 
+	 -50px 0 0 -25px rgba(255, 255, 255, 0.35),
+	  -25px 0 0 -12.5px rgba(255, 255, 255, 0.35);
 }
 
 .item-photo{
@@ -110,7 +115,9 @@ nav{
 	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	padding-left: 30px;
-	padding-top: 5px;	
+	padding-top: 5px;
+	box-shadow: 50px 0 0 -25px rgba(255, 255, 255, 0.35), 
+	25px 0 0 -12.5px rgba(255, 255, 255, 0.35);
 }
 
 .aside p{
@@ -242,3 +249,5 @@ select {
     -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
     transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
+
+
